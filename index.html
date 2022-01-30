@@ -9,50 +9,65 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Sina Sajjadi" />
+<meta name="author" content="Sina Sajjadi sajjadi@csh.ac.at/sajjadi_sina@phd.ceu.edu" />
 
 
-<title>My Cool Visualizations</title>
+<title>About Me</title>
 
-<script src="DMP01_files/header-attrs-2.3/header-attrs.js"></script>
-<script src="DMP01_files/jquery-1.11.3/jquery.min.js"></script>
+<script src="DMP01_files/header-attrs-2.11/header-attrs.js"></script>
+<script src="DMP01_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="DMP01_files/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="DMP01_files/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="DMP01_files/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="DMP01_files/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="DMP01_files/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="DMP01_files/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="DMP01_files/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="DMP01_files/navigation-1.1/tabsets.js"></script>
 
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
 
 
 
 <style type="text/css">
-h1 {
-  font-size: 34px;
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
 }
-h1.title {
-  font-size: 38px;
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
 }
-h2 {
-  font-size: 30px;
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
 }
-h3 {
-  font-size: 24px;
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
 }
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -65,10 +80,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -85,6 +96,9 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
@@ -97,7 +111,6 @@ summary {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -223,7 +236,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -234,12 +247,12 @@ div.tocify {
 
 
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">My Cool Visualizations</h1>
-<h4 class="author">Sina Sajjadi</h4>
+<h1 class="title toc-ignore">About Me</h1>
+<h4 class="author">Sina Sajjadi <a href="mailto:sajjadi@csh.ac.at" class="email">sajjadi@csh.ac.at</a>/<a href="mailto:sajjadi_sina@phd.ceu.edu" class="email">sajjadi_sina@phd.ceu.edu</a></h4>
 
 </div>
 
@@ -247,9 +260,31 @@ div.tocify {
 <!-- theme: cerulean -->
 <!-- theme: cosmo -->
 <!-- theme: flatly -->
-<div id="background" class="section level1 unnumbered">
-<h1 class="unnumbered">Background</h1>
-<p>Here are some cool data visualizations and schematic model descriptions I have created for my past and present projects, mostly using Python and matplotlib. I store them here for future references.</p>
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Hi! I’m Sina Sajjadi! A Ph.D. researcher at the <strong>Complexity Science Hub</strong> and <strong>Central European University</strong>. I’m part of the <strong>Networked Inequality Lab</strong> where I investigate bias and homophily in Social networks. I also worked on Spreading dynamics, Balance theory, Network inference models, and game dynamics.</p>
+<p>I am interested in both the theoretical and the applied aspects of complex systems. In particular, I am interested in the mathematical modeling of social phenomena, using techniques such as network modeling, game theory, and statistical analysis.</p>
+<p>You can find <a href="https://raw.githubusercontent.com/Sepante/CV/main/CV.pdf"><strong>My CV here.</strong></a></p>
+<div id="webpages" class="section level2">
+<h2>Webpages</h2>
+<p><a href="https://www.csh.ac.at/researcher/sina-sajjadi/"><strong>My Complexity Science Hub Webpage</strong></a></p>
+<p><strong>My Central European University Webpage (To be added)</strong></p>
+<p><strong>My NetIn Webpage (To be added)</strong></p>
+</div>
+</div>
+<div id="publications" class="section level1">
+<h1>Publications</h1>
+<ol style="list-style-type: decimal">
+<li><strong>Sajjadi, Sina</strong>, Mohammad Reza Ejtehadi, and Fakhteh Ghanbarnejad. “Impact of temporal correlations on high risk outbreaks of independent and cooperative SIR dynamics.” Plos one 16.7 (2021): e0253563. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0253563"><strong>Link here</strong></a>.</li>
+<li><strong>Sajjadi, Sina</strong>, Alireza Hashemi, and Fakhteh Ghanbarnejad. “Social distancing in pedestrian dynamics and its effect on disease spreading.” Physical Review E 104.1 (2021): 014313. <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.104.014313"><strong>Link here</strong></a>.</li>
+<li><strong>Sajjadi, Sina</strong>, Pourya Toranj Simin, Basak Taraktas, Mehrzad Shadmangohar, Ulya Bayram, Mavi Ruiz, Fariba Karimi. “Epidemic Infection Disparity Explained By Segregation and Socio-economic Inequality, a Multilayer Agent Based Model”. <em>Under review.</em></li>
+<li>Razieh Masoumi, Farideh Oloomi, <strong>Sina Sajjadi</strong>, Amirhoseein Shirazi, Gholamreza Jafari. “Modified Heider Balance Model on Random Networks”. <em>Under review.</em></li>
+</ol>
+<!--
+# Background {-}
+Here are some cool data visualizations and schematic model descriptions I have created for my past and present projects, mostly using Python and matplotlib.
+I store them here for future references.
+ -->
 </div>
 <div id="research" class="section level1">
 <h1>Research</h1>
@@ -263,18 +298,8 @@ div.tocify {
 <img src="media/segregated-spread-2.gif" style="width:70.0%" alt="" />
 <p class="caption">Figure 1. Segregated Spreading</p>
 </div>
-<p>Blue, red and gray respectively signify <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious) and <span class="math inline">\(R\)</span> (Recovered) states. Squares, circles and triangles respectively denote agents from low, middle and high SES communities. The green dash-dotted circles indicate staying home. Solid and dashed lines demonstrate connections capable and incapable of disease transmission.</p>
+<p>Blue, red and gray respectively signify <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious), and <span class="math inline">\(R\)</span> (Recovered) states. Squares, circles, and triangles respectively denote agents from low, middle, and high SES communities. The green dash-dotted circles indicate staying home. Solid and dashed lines demonstrate connections capable and incapable of disease transmission.</p>
 <p><a href="https://github.com/Sepante/Covid-Prejudice"><strong>Code repository here!</strong></a></p>
-</div>
-<div id="karate-club" class="section level2">
-<h2>Karate Club</h2>
-<p>In this work, by modeling the balance dynamics on empirical social networks, such as Zachary’s karate club <span class="citation">(1)</span>, we study the effect of heterogeneity on microscopic parameters of the system such as the mean value (+1, -1) of each dyad. We plan to proceed to formulate a mean-field approximation for this dynamics.</p>
-<div class="figure">
-<img src="media/karate-club-t.png" style="width:70.0%" alt="" />
-<p class="caption">Figure 2. karate-club</p>
-</div>
-<p>Each point denotes an edge of the Zachary’s karate club, with <span class="math inline">\(k_&lt;\)</span> and <span class="math inline">\(k_&gt;\)</span> indicating the degrees of nodes on each side of the edge. Color code demonstrates <span class="math inline">\(T_c\)</span> the transition temperature of the edge. Considering that multiple edges may have same couple of values for <span class="math inline">\(k_&lt;\)</span> and <span class="math inline">\(k_&gt;\)</span>, for demonstration purposes, the points denoting these edges are arranged in a circular manner and encircled by a gray dashed ring.</p>
-<p><a href="https://github.com/Sepante/balance-het-network"><strong>Code repository here!</strong></a></p>
 </div>
 <div id="epidemics-on-empirical-dynamic-networks" class="section level2">
 <h2>Epidemics on Empirical Dynamic Networks</h2>
@@ -283,21 +308,31 @@ div.tocify {
 <img src="media/3stepslcustering.jpg" style="width:200.0%" alt="" />
 <p class="caption">Figure 3. Spreading on Dynamic Networks</p>
 </div>
-<p>The figure demonstrates, how the k-means clustering measure works for our purpose. As an example, we see the coinfection dynamics on a shuffled hospital network. <!-- with $q = 1$ and $r = 0.001$. --> The left panel shows the density of the <span class="math inline">\({ab}\)</span> population, and the probability that a realization settles on the given value of the density (<span class="math inline">\(\pi ( \rho_{ab}(p) )\)</span>: color code) while varying p, which is the first infection probability. The gray dashed curve demonstrates the average <span class="math inline">\(\rho_{ab}\)</span>. The middle panel distinguishes precisely the two epidemic branches in the left panel at <span class="math inline">\(p=0.069\)</span>, the vertical window. The right panel shows the fraction of individuals recovered from one disease (x axis) and from both diseases (y axis), within each realization. Each point denotes a single realization and different colors indicate different clusters: red (double infection outbreaks), green (single infection), blue (no outbreaks). The dashed shapes, encircle the realizations which make up the outbreak branch (OB) in each illustration. The number of realizations is 50000, but for illustrative purposes in the right panel, only a sample of 5000 realizations is depicted.</p>
-<p><em>Figure and caption taken from our paper <span class="citation">(2)</span>.</em></p>
+<p>The figure demonstrates, how the k-means clustering measure works for our purpose. As an example, we see the coinfection dynamics on a shuffled hospital network. <!-- with $q = 1$ and $r = 0.001$. --> The left panel shows the density of the <span class="math inline">\({ab}\)</span> population, and the probability that a realization settles on the given value of the density (<span class="math inline">\(\pi ( \rho_{ab}(p) )\)</span>: color code) while varying p, which is the first infection probability. The gray dashed curve demonstrates the average <span class="math inline">\(\rho_{ab}\)</span>. The middle panel distinguishes precisely the two epidemic branches in the left panel at <span class="math inline">\(p=0.069\)</span>, the vertical window. The right panel shows the fraction of individuals recovered from one disease (x-axis) and from both diseases (y-axis), within each realization. Each point denotes a single realization and different colors indicate different clusters: red (double infection outbreaks), green (single infection), blue (no outbreaks). The dashed shapes, encircle the realizations which make up the outbreak branch (OB) in each illustration. The number of realizations is 50000, but for illustrative purposes in the right panel, only a sample of 5000 realizations is depicted.</p>
+<p><em>Figure and caption are taken from our paper <span class="citation">(1)</span></em></p>
 <!-- ![Epyc Logo](img/Epyc-Logo-non-wide.png){ width=4% } -->
 <p>Generated by my software <img src="media/Epyc-Logo-non-wide.png" style="width:4.0%" alt="Epyc Logo" /> Available under GPL-3.0 <a href="https://github.com/Sepante/Epyc">at this repository</a>.</p>
 </div>
 <div id="epidemics-on-pedestrian-dynamics" class="section level2">
 <h2>Epidemics on Pedestrian Dynamics</h2>
-<p>In this work we define a novel type of <strong>social distancing</strong> (keeping distance from other agents to avoid infection) based on the <strong>pedestrian dynamics</strong>. We consider both direct and indirect transmission by taking into account the role of environment as a vehicle of spreading. By categorizing the population in three different compartments: <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious) and <span class="math inline">\(E\)</span> (Exposed) we simulate the spreading, and predict the risk of infection for different levels of social distancing in multiple scenarios.</p>
+<p>In this work, we define a novel type of <strong>social distancing</strong> (keeping distance from other agents to avoid infection) based on the <strong>pedestrian dynamics</strong>. We consider both direct and indirect transmission by taking into account the role of the environment as a vehicle of spreading. By categorizing the population in three different compartments: <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious), and <span class="math inline">\(E\)</span> (Exposed) we simulate the spreading and predict the risk of infection for different levels of social distancing in multiple scenarios.</p>
 <blockquote>
 <p>We won the <strong><span class="math inline">\(2^{nd}\)</span> place award</strong> in the scientific video contest of <a href="https://indico.cern.ch/event/943962/overview"><strong>Dynamics of biological systems:</strong></a> from viruses to populations conference, held by <em>Jagiellonian University</em> for this animation. Presentation title: <em>Social distancing in pedestrian dynamics and its effect on disease spreading</em></p>
 </blockquote>
 <p><video src="media/Episterian.mp4" style="width:60.0%" controls=""><a href="media/Episterian.mp4">Figure 4. Pedestrian Epidemics</a></video> <!-- ![Figure 3. Pedestrian Epidemics](https://raw.githubusercontent.com/sepante-sub/Sina-Markdown/gh-pages/img/Episterian.mp4){ width=60% } --></p>
 <!-- <iframe  width="425" height="344" src="https://raw.githubusercontent.com/sepante-sub/Sina-Markdown/gh-pages/img/Episterian.mp4" frameborder="0" allowfullscreen></iframe> -->
-<p>The circles denote agents. Blue, red and gold respectively signify <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious) and <span class="math inline">\(E\)</span> (Exposed) states. The purple tiles demonstrate the contaminated environment. The green diamond is the target which the infectious agent tries to reach.</p>
+<p>The circles denote agents. Blue, red, and gold respectively signify <span class="math inline">\(S\)</span> (Susceptible), <span class="math inline">\(I\)</span> (Infectious), and <span class="math inline">\(E\)</span> (Exposed) states. The purple tiles demonstrate the contaminated environment. The green diamond is the target that the infectious agent tries to reach.</p>
 <p><a href="https://github.com/ialireza13/agentBasedSEIR"><strong>Code repository here!</strong></a></p>
+</div>
+<div id="karate-club" class="section level2">
+<h2>Karate Club</h2>
+<p>In this work, by modeling the balance dynamics on empirical social networks, such as Zachary’s karate club <span class="citation">(2)</span>, we study the effect of heterogeneity on microscopic parameters of the system such as the mean value (+1, -1) of each dyad. We plan to proceed to formulate a mean-field approximation for this dynamics.</p>
+<div class="figure">
+<img src="media/karate-club-t.png" style="width:70.0%" alt="" />
+<p class="caption">Figure 2. karate-club</p>
+</div>
+<p>Each point denotes an edge of the Zachary’s karate club, with <span class="math inline">\(k_&lt;\)</span> and <span class="math inline">\(k_&gt;\)</span> indicating the degrees of nodes on each side of the edge. Color code demonstrates <span class="math inline">\(T_c\)</span> the transition temperature of the edge. Considering that multiple edges may have the same couple of values for <span class="math inline">\(k_&lt;\)</span> and <span class="math inline">\(k_&gt;\)</span>, for demonstration purposes, the points denoting these edges are arranged in a circular manner and encircled by a gray dashed ring.</p>
+<p><a href="https://github.com/Sepante/balance-het-network"><strong>Code repository here!</strong></a></p>
 </div>
 </div>
 <div id="teaching" class="section level1">
@@ -308,25 +343,25 @@ div.tocify {
 <img src="media/schelling-4.gif" style="width:70.0%" alt="" />
 <p class="caption">Figure 5. Schelling Model</p>
 </div>
-<!-- ![Figure 5. Schelling Model](https://raw.githubusercontent.com/sepante-sub/Sina-Markdown/gh-pages/img/schelling-4.gif){ width=70% } -->
-<!-- <HTML> -->
-<!-- <HEAD> <TITLE>Activity - Insert animated GIF to HTML</TITLE> </HEAD> -->
-<!-- <BODY> -->
-<!--   <IMG SRC="https://raw.githubusercontent.com/sepante-sub/Sina-Markdown/gh-pages/img/schelling-4.gif"> -->
-<!-- </BODY> -->
-<!-- </HTML> -->
 <p>Presented at <a href="http://quanta.spssa.ir/index.php/algorithm-design/spring-2020/">Schelling Algorithm Implementation and Visualization workshop</a>.</p>
-<p><a href="https://github.com/Sepante/Schelling"><strong>Code repository here!</strong></a></p>
+<p><a href="https://github.com/Sepante/Schelling"><strong>Code repository here!</strong></a> <!-- 
+
+#  Misc
+
+## HackZ&uuml;rich
+
+
+ --></p>
 </div>
 </div>
 <div id="references" class="section level1 unnumbered">
 <h1 class="unnumbered">References</h1>
-<div id="refs" class="references">
-<div id="ref-wiki:karate-network">
-<p>1. Wikipedia contributors. Zachary’s karate club — Wikipedia, The Free Encyclopedia. <a href="https://en.wikipedia.org/w/index.php?title=Zachary%27s_karate_club&amp;oldid=967105030">https://en.wikipedia.org/w/index.php?title=Zachary%27s_karate_club&amp;oldid=967105030</a>; 2020. </p>
+<div id="refs" class="references csl-bib-body">
+<div id="ref-sajjadi2021impact" class="csl-entry">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Sajjadi S, Ejtehadi MR, Ghanbarnejad F. Impact of temporal correlations on high risk outbreaks of independent and cooperative SIR dynamics. Plos one. Public Library of Science San Francisco, CA USA; 2021;16(7):e0253563. </div>
 </div>
-<div id="ref-sajjadi_impact_2020">
-<p>2. Sajjadi S, Ejtehadi MR, Ghanbarnejad F. Impact of temporal correlations on high risk outbreaks of independent and cooperative SIR dynamics. arXiv:2003.01268 [physics, q-bio] [Internet]. März 2020; Verfgbar unter: <a href="http://arxiv.org/abs/2003.01268">http://arxiv.org/abs/2003.01268</a></p>
+<div id="ref-wiki:karate-network" class="csl-entry">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Wikipedia contributors. Zachary’s karate club — <span>Wikipedia</span><span>,</span> The Free Encyclopedia. <a href="https://en.wikipedia.org/w/index.php?title=Zachary%27s_karate_club&amp;oldid=967105030">https://en.wikipedia.org/w/index.php?title=Zachary%27s_karate_club&amp;oldid=967105030</a>; 2020. </div>
 </div>
 </div>
 </div>
@@ -342,7 +377,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -360,7 +395,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -369,6 +404,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
